@@ -1,0 +1,56 @@
+main{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    /* background-color:green; */
+}
+
+.weatherContainer{
+    padding:1vw;
+    /* display:flex; */
+    background-color:rgba(255, 107, 107,0.4);
+    width:42vw;
+    height:44vh;
+}
+
+.infos{
+    display:flex;
+    flex-direction: row;
+    gap:23vw;
+}
+
+.name{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:3em;
+}
+/* 
+.wind{
+    position:fixed;
+    bottom:40vh;
+    right:30vw;
+}
+
+.clouds{
+    position:fixed;
+    background-color:green;
+    bottom:45vh;
+    right:31vw;
+} */
+
+.temperature {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:3em;
+
+}
+
+
+.description {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5em;
+}
